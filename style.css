@@ -1,0 +1,62 @@
+:root{
+    margin: 10px;
+    padding: 10px;
+
+    spacing: small 8px;
+    spacing: medium 16px;
+    spacing: large 32px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: var(padding);
+    margin: var(margin);
+}
+
+h1, h2{
+    color: black;
+    font-size: large;
+    text-align: justify;
+    margin-bottom: var(padding);
+}
+
+div{
+    background-color: white;
+    border-radius: 8px;
+    padding: var(padding);
+    margin: var(margin);
+}
+
+@media(max-width:600px){
+:root{
+    margin: 10px;
+    padding: 10px;
+
+    spacing: small 8px;
+    spacing: medium 16px;
+    spacing: large 32px;
+}
+
+}
+@media(min-width:601px) and (max-width:1200px){
+:root{
+    margin: 10px;
+    padding: 10px;
+
+    spacing: small 8px;
+    spacing: medium 16px;
+    spacing: large 32px;
+}
+}
+
+@media(min-width:1201px){
+:root{
+    margin: 10px;
+    padding: 10px;
+
+    spacing: small 8px;
+    spacing: medium 16px;
+    spacing: large 32px;
+}
+}
